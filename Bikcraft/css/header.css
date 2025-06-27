@@ -28,10 +28,7 @@
 .header-menu a{
     padding: 16px 0px;
     display: inline-block;
-    font-size: 18px;
     position: relative;
-    font-family: 'Poppins';
-    font-weight: 400;
 }
 
 /* criando um sublinhado embaixo dos itens */
@@ -40,7 +37,7 @@
     display: block;
     height: 2px;
     width: 0%;
-    background: #ffffff;
+    background: var(--cor-0);
     margin-top: 4px;
     transition: 0.3s; /* cria a animação do sublinhado */
     position: absolute;
@@ -68,7 +65,7 @@
     }
 
     /* tirando a animação de sublinhado */
-    .header a::after{
+    .header a:after{
     display: none;
 }
 
