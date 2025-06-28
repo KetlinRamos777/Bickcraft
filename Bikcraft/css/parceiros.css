@@ -57,4 +57,9 @@
     .parceiros li:nth-child(odd) {
         border-left: none;
     }
+
+    .parceiros li {
+    display: flex;
+    padding: 20px;
+    }
 }
