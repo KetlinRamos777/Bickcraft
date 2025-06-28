@@ -86,17 +86,17 @@
 }
 
 
-@media (max-widht:1200px) {
+@media (max-width:1200px) {
     .font-1-xxl{
         font-size: 3rem;
     }
 
     .font-2-l, .font-2-l-b {
-        font-size: 1.25rem;
+        font-size: 1.125rem;
     }
 }
 
-@media (max-widht:800px) {
+@media (max-width:800px) {
     .font-1-xxl {
         font-size: 2rem;
     }

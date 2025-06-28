@@ -9,7 +9,7 @@
     text-transform:uppercase;
     color: var(--cor-p5);
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.35;
     font-family: 'Poppins';
     font-weight: 600;
 }
@@ -21,6 +21,6 @@
 @media (max-widht:600px){
     .boto {
         padding: 12px 16px;
-        font-size: 16px;
+        font-size: 1rem;
     }
 }

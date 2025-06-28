@@ -12,7 +12,7 @@
     align-items: center;
     box-sizing: border-box;
     padding: 20px;
-    max-width: 1200;
+    max-width: 1200px;
     margin-left: auto;
     margin-left: auto;
 }
@@ -49,12 +49,12 @@
 }
 
 /* A tela de 600 a 800px */
-@media (max-widht: 800px) {
+@media (max-width: 800px) {
     .header-menu{
         gap: 20px;
     }
 
-    .header-menu a{
+    .header-menu a {
         background: var(--cor-11);
         padding: 12px 16px;
         border-radius: 4px;
@@ -67,12 +67,12 @@
     /* tirando a animação de sublinhado */
     .header a:after{
     display: none;
-}
+    }
 
 }
 
 /* A tela de 0 a 600px */
-@media (max-widht: 400px) {
+@media (max-width: 600px) {
     .header-menu{
         gap: 12px;
     }
