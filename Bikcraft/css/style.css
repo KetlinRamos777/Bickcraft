@@ -4,6 +4,7 @@
 
 /* HOME */
 @import url(introducao.css);
+@import url(tecnologia.css);
 
 /* UTILIDADES */
 @import url(componentes.css);
