@@ -9,3 +9,6 @@
 @import url(componentes.css);
 @import url(tipografia.css);
 @import url(cores.css);
+
+/* BICICLETAS */
+@import url(bicicletas-lista.css);
