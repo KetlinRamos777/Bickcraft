@@ -1,21 +1,24 @@
 /* GLOBAL */
-@import url(global.css);
-@import url(header.css);
-@import url(footer.css);
+@import url(global/global.css);
+@import url(global/header.css);
+@import url(global/footer.css);
 
 /* HOME */
-@import url(introducao.css);
-@import url(tecnologia.css);
-@import url(parceiros.css);
-@import url(depoimento.css);
+@import url(home/introducao.css);
+@import url(home/tecnologia.css);
+@import url(home/parceiros.css);
+@import url(home/depoimento.css);
 
 /* UTILIDADES */
-@import url(componentes.css);
-@import url(tipografia.css);
-@import url(cores.css);
+@import url(utilidades/componentes.css);
+@import url(utilidades/tipografia.css);
+@import url(utilidades/cores.css);
 
 /* BICICLETAS */
-@import url(bicicletas-lista.css);
+@import url(bicicletas/bicicletas-lista.css);
 
 /* SEGUROS */
-@import url(seguros.css);
+@import url(seguros/seguros.css);
+
+/* Termos */
+@import url(termos/termos.css);
