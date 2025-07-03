@@ -17,6 +17,10 @@
     overflow-x: auto; /* cria um scroll so pra essa parte da lista */
 }
 
+#bicicleta .bicicletas-lista ul {
+    padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li {
     flex: 1;
     min-width: 280px;
